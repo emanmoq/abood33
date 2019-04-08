@@ -1,0 +1,145 @@
+
+
+body{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl !important;
+
+}
+img{
+    width:100%;
+}
+.navbar{
+    margin-bottom:45px;
+}
+.logoBG{
+    background-color:#fafafa;
+    height:45px;
+    -webkit-clip-path: polygon(4% 0, 100% 0%, 93% 100%, 0% 100%);
+clip-path: polygon(4% 0, 100% 0%, 93% 100%, 0% 100%);
+width:90px;
+border-radius: 7px;
+font-weight: bold;
+line-height: 45px;
+font-size:20px;
+display: inline-block
+}
+.PEBG{
+    width:50px;
+    display: inline-block;
+}
+.englishLogo{
+    direction: ltr !important;
+    margin-top:10px;
+}
+.englishLogo .PEBG{
+    background-color:#e90189;
+color:#fafafa;
+}
+.accountmenu li,.footerIcon li{
+    display:inline-block;
+    list-style-type: none;
+    margin-right:20px;
+}
+.accountmenu li a{
+    color:black;
+    text-decoration: none;
+}
+.footerIcon a{
+    color:#d6d5d5;
+    text-decoration: none;
+}
+.copyRight span{
+color:#d6d5d5;
+    font-size:16px;
+}
+.footer{
+    padding-top:10px;
+    margin-top:70px;
+    border-top:1px solid #d6d5d5;
+}
+.price{color:#e90189;
+}
+
+.sidBox{
+    text-align: right;
+    width:100%;
+    height:auto;
+    background-color:#fafafa;
+    color:black ;
+    box-shadow:0px 5px 1px 1px rgba(0,0,0,.2); 
+    border-radius: 5px;
+}
+.navbar{
+    height:100px;
+}
+.navbar-nav a{
+    color:black !important;
+}
+.navbar-nav a.active{
+    color:#e90189 !important;
+}
+.bookBox{
+    position: relative;
+    background-color: #fafafa;
+    box-shadow:0px 2px 1px 1px rgba(0,0,0,.2);
+    height:270px;
+    padding:35px 10px 10px 10px;
+    width:100%;
+text-align: right !important;
+margin-top:50px;
+border-radius: 5px;
+}
+.bookBox:hover .overlay{
+display: block;
+}
+.bookImg{
+    margin:0 auto;
+    width: 100px;
+    height: 120px;
+}
+.details{
+    margin-top:40px;
+}
+.bookName span{
+    display: block;
+}
+.quntity input{
+    display: block;
+    width:55px;
+}
+.quntity label{
+    display: block;
+}
+
+ .overlay{
+    position: absolute;
+    z-index: 11;
+    height: 70%;
+    left: 3%;
+    background-color: rgba(0,0,0,.2);
+    top: 2%;
+    border-radius: 5px;
+    width:90%;
+    display: none;
+}
+.addToCart{
+    background-color: #e90189;
+    position: absolute;
+    width: 84%;
+    height: 44px;
+    bottom: 5px;
+    left: 18px;
+    border-radius: 7px;
+    border:0;
+}
+.addToCart:hover{
+    background-color:#d90a83;
+}
+.addToCart:active{
+    background-color:#d90a83 !important;
+    box-shadow: none;
+}
+.addToCart:focus{
+    box-shadow: none;
+
+}
